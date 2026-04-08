@@ -1,15 +1,28 @@
 body {
-    background-color: #302c2c;
+background-color: #302c2c;
+ height: 100%;
+    width: 100%;
 }
 .top {
-    background-color: #e6e3e3;
+    background-color: #ffffff;
     height: 100px;
-    width: auto;
+    width: 300px;
+    margin: auto;
     justify-content: center;
     text-align: center;
 }
-.about {
-    background-color: #e6e3e3;
-    height: 200px;
-    width: 300px;
+.contact {
+    background-color: #ffffff;
+    height: auto;
+    width: 250px;
+    float: left;
+}
+hr {
+    border: solid black;
+}
+.nav {
+    background-color: #ffffff;
+    height: auto;
+    width: 200px;
+    float: right;
 }
