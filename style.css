@@ -1,6 +1,29 @@
-body {
-    background-color: rgb(47, 130, 202);
+html {  
+     display: flex; 
+    background-color: rgb(24, 23, 23);
+    color: #ffffff;
+    margin: auto;
+        justify-content: center;
+    text-align: center;
+    
 }
-section {
+starter {
+    text-decoration: dashed;
+    
+}
+body {
+    text-align: center;
+    border: 2px solid #242424;
+    border-radius: 3px;
+    height: 850px;
+    width: 50%;
+}
+hr {
+ width: 50px;
+}
+.bio {
+
+    width: auto;
+    height: auto;
     margin: auto;
 }
