@@ -1,29 +1,18 @@
-html {  
-     display: flex; 
-    background-color: rgb(24, 23, 23);
-    color: #ffffff;
-    margin: auto;
-        justify-content: center;
-    text-align: center;
-    
+html {
+background-color: rgb(255, 255, 255);
 }
-starter {
-    text-decoration: dashed;
-    
-}
-body {
-    text-align: center;
-    border: 2px solid #242424;
-    border-radius: 3px;
-    height: 850px;
-    width: 50%;
-}
-hr {
- width: 50px;
-}
-.bio {
 
-    width: auto;
-    height: auto;
-    margin: auto;
+header {  
+  display: flex;
+  justify-content: center;
+height: 200px;
+width: 100%;
+background: rgba(175, 166, 166, 0.705);
+}
+.content {
+display: flex;
+background-color: rgba(230, 219, 219, 0.582);
+}
+h1 {
+ text-decoration: underline;
 }
