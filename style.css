@@ -1,5 +1,13 @@
 html {
 background-color: rgb(255, 255, 255);
+font-family: incon;
+  letter-spacing: 0;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+  font-kerning: none;
+  font-feature-settings: "liga" 0, "calt" 0, "kern" 0;
+  line-height: 1;
 }
 
 header {  
@@ -7,7 +15,7 @@ header {
   justify-content: center;
 height: 200px;
 width: 100%;
-background: rgba(175, 166, 166, 0.705);
+background-color: rgba(175, 166, 166, 0.705);
 }
 .content {
 display: flex;
@@ -16,3 +24,38 @@ background-color: rgba(230, 219, 219, 0.582);
 h1 {
  text-decoration: underline;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+nav li {
+  float: left;
+  background-color: transparent;
+}
+
+nav li a {
+  margin: 10px;
+  border: 1px solid #111111;
+  display: block;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: rgba(175, 166, 166, 0.705);
+}
+@font-face {
+  font-family: "incon";
+  src: url("fonts/Inconsolata-Black.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
