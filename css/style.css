@@ -41,7 +41,9 @@ nav li {
   float: left;
   background-color: transparent;
 }
-
+hr {
+  border: 1px solid #111111;
+}
 nav li a {
   margin: 10px;
   border: 1px solid #111111;
