@@ -12,18 +12,21 @@ font-family: incon;
 
 header {  
   display: flex;
-  justify-content: center;
+  justify-items: center;
 height: 200px;
 width: 100%;
 background-color: rgba(175, 166, 166, 0.705);
 }
+
 .content {
 display: flex;
 background-color: rgba(230, 219, 219, 0.582);
+
 }
 h1 {
  text-decoration: underline;
 }
+
 nav {
   display: flex;
   justify-content: center;
@@ -59,3 +62,4 @@ nav li a:hover {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
