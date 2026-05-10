@@ -1,0 +1,1 @@
+This readme file is some basic info. This is a mirror meaning aby change i push on the og repo (git.sfymmik.xyz) also Mirrors to this
