@@ -2,16 +2,18 @@ html {
   background-color: #242424;
 font-family: incon;
 display: flex;
+  color: #aaaaaa;
   justify-content: center;
 }
 
 .description {
 font-family: incon;
 display: flex;
-
+color: #ffffff
 }
 nav {
   margin: 25px;
+  border: 1px solid #111111;
 padding: 0 15px;
  display: flex;
  justify-content: center;
@@ -22,6 +24,7 @@ padding: 0 15px;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
+  color: #aaaaaa;
 }
 
 nav li {
@@ -30,6 +33,7 @@ nav li {
 
 nav li a {
   display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
