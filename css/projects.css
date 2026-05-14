@@ -3,14 +3,8 @@ html {
 font-family: incon;
 display: flex;
   color: #aaaaaa;
-  justify-content: center;
 }
 
-.description {
-font-family: incon;
-display: flex;
-color: #ffffff
-}
 nav {
   margin: 25px;
   border: 1px solid #111111;
@@ -38,7 +32,6 @@ nav li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 @font-face {
   font-family: "incon";
